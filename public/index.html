@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chit Chat App</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <img
+          class="logo-img"
+          src="https://www.creativefabrica.com/wp-content/uploads/2020/09/01/letter-C-logo-design-Vector-design-Graphics-5225857-1.jpg"
+        />
+        <h1>Chit Chat</h1>
+      </header>
+      <!--<i class="logo fa-solid fa-message-bot"></i>  -->
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label class="username" for="username">Username</label>
+            <input
+              class="border-styles"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter username..."
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">Room</label>
+            <select class="border-styles" name="room" id="room">
+              <option value="101100">#101100</option>
+              <option value="101101">#101101</option>
+              <option value="101102">#101102</option>
+              <option value="101103">#101103</option>
+              <option value="101104">#101104</option>
+              <option value="101105">#101105</option>
+            </select>
+          </div>
+          <div class="btn-container">
+            <button type="submit" class="btn join-btn">Join Chat</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
